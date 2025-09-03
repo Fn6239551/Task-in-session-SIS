@@ -31,6 +31,7 @@ namespace Student_Information_System.Data
             {
                 optionsBuilder.UseSqlServer(@"Server=DESKTOP-SMBVS1T;Database=SISDB;Trusted_Connection=True;TrustServerCertificate=True;AttachDbFilename=D:\Databases\SISDB.mdf");
             }
+
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
